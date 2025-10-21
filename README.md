@@ -29,14 +29,16 @@ This repository contains the implementation of a machine learning pipeline for p
 
 Clone the repository:
 
-```bash
+```
+bash
 git clone https://github.com/Jiannan97/Ensemble.git
-cd ofet-stability-ml
+cd Ensemble
+```
 
-Dependencies
+## Dependencies
 
 The main Python packages required are:
-
+```
 numpy
 pandas
 scipy
@@ -45,6 +47,52 @@ xgboost
 torch
 matplotlib
 rdkit
+```
+
 You can install them via pip:
+```
 pip install numpy pandas scipy scikit-learn xgboost torch matplotlib rdkit
+```
+
+
+## Usage
+
+Place your datasets and feature files:
+```
+Train_dataset.csv
+Test_dataset.csv
+/features/molformer_feature_pca_reduced.pkl
+/features/RDKit_feature.pkl
+```
+
+Run the main training and evaluation script:
+```
+python main.py
+```
+
+This will execute the following steps:
+
+1. **Load and preprocess the data**
+
+2. **Perform spline interpolation for data augmentation**
+
+3. **Apply FGSM adversarial augmentation using a pre-trained TransformerDNN**
+
+4. **Train ensemble stacking models and evaluate via cross-validation**
+
+The script prints average metrics (MSE, RMSE, R², PCC) across folds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
