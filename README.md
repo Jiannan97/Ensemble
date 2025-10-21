@@ -1,10 +1,10 @@
-# Stability Prediction of Organic Field-Effect Transistors by Machine Learning
+<img width="432" height="34" alt="image" src="https://github.com/user-attachments/assets/452f7c0e-fa32-4751-bc42-541850e1f0b7" /><img width="432" height="28" alt="image" src="https://github.com/user-attachments/assets/39894755-fbf0-4180-a465-5b7445af49ad" /># Stability Prediction of Organic Field-Effect Transistors by Machine Learning
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![PyTorch](https://img.shields.io/badge/pytorch-1.x-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## Paper Abstract
+## 1. Paper Abstract
 
 Organic field-effect transistors (OFETs) have emerged as promising candidates for next-generation organic electronics owing to their flexibility, low cost, and compatibility with large-area fabrication. However, their limited stability remains a critical barrier to commercialization, largely due to the absence of unified and efficient design principles. Conventional evaluation methods, such as accelerated aging tests and microstructural analyses, typically rely on single-variable control and empirical analysis, making it difficult to systematically capture the nonlinear correlations and coupling effects among different influence factors, and insufficient for systematically identifying degradation mechanisms of OFETs. 
 
@@ -14,7 +14,7 @@ This work underscores the promise of ML in enhancing both predictive accuracy an
 
 ---
 
-## Overview
+## 2. Overview
 
 This repository contains the implementation of a machine learning pipeline for predicting the stability of organic field-effect transistors (OFETs). The pipeline integrates:
 
@@ -25,7 +25,7 @@ This repository contains the implementation of a machine learning pipeline for p
 
 ---
 
-## Installation
+## 3. Installation
 
 Clone the repository:
 
@@ -35,7 +35,7 @@ git clone https://github.com/Jiannan97/Ensemble.git
 cd Ensemble
 ```
 
-## Dependencies
+## 4. Dependencies
 
 The main Python packages required are:
 ```
@@ -55,7 +55,7 @@ pip install numpy pandas scipy scikit-learn xgboost torch matplotlib rdkit
 ```
 
 
-## Usage
+## 5. Usage
 
 Place your datasets and feature files:
 ```
@@ -83,16 +83,23 @@ This will execute the following steps:
 The script prints average metrics (MSE, RMSE, R², PCC) across folds.
 
 
+## 6. Evaluation Metrics
+
+The pipeline outputs the following metrics during cross-validation:
+
+**MSE** – Mean Squared Error
+**RMSE** – Root Mean Squared Error
+**R²** – Coefficient of determination
+**PCC** – Pearson correlation coefficient
 
 
+## 7. Citation
+
+If you use this code in your research, please cite:
+Jiannan Qi, Shutao Chen, Hui Liu, Lin Zhang*, Xiaosong Chen*, Liqiang Li*, Wenping Hu. Stability Prediction of Organic Field-Effect Transistors by Machine Learning. 2025. (Submitted)
 
 
+## 8. License
 
-
-
-
-
-
-
-
+This project is licensed under the MIT License.
 
