@@ -1,8 +1,10 @@
-<img width="432" height="34" alt="image" src="https://github.com/user-attachments/assets/452f7c0e-fa32-4751-bc42-541850e1f0b7" /><img width="432" height="28" alt="image" src="https://github.com/user-attachments/assets/39894755-fbf0-4180-a465-5b7445af49ad" /># Stability Prediction of Organic Field-Effect Transistors by Machine Learning
+# Stability Prediction of Organic Field-Effect Transistors by Machine Learning
 
-![Python](https://img.shields.io/badge/python-3.x-blue)
-![PyTorch](https://img.shields.io/badge/pytorch-1.x-red)
-![License](https://img.shields.io/badge/license-MIT-green)
+<p align="center">
+  ![Python](https://img.shields.io/badge/python-3.10-blue)
+  ![PyTorch](https://img.shields.io/badge/pytorch-2.3-red)
+  ![License](https://img.shields.io/badge/license-MIT-green)
+</p>
 
 ## 1. Paper Abstract
 
