@@ -1,9 +1,9 @@
 # Stability Prediction of Organic Field-Effect Transistors by Machine Learning
 
 <p align="center">
-  ![Python](https://img.shields.io/badge/python-3.10-blue)
-  ![PyTorch](https://img.shields.io/badge/pytorch-2.3-red)
-  ![License](https://img.shields.io/badge/license-MIT-green)
+  <img src="https://img.shields.io/badge/python-3.10-blue" alt="Python">
+  <img src="https://img.shields.io/badge/pytorch-2.3-red" alt="PyTorch">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
 </p>
 
 ## 1. Paper Abstract
