@@ -92,15 +92,15 @@ def standardize_data(X_train, X_test):
 
 def process_data():
     """Main data processing pipeline."""
-    data = load_csv("/home/chenshutao/PythonCode/Chem/PythonCode/Train-241210.csv")
-    dntt = load_csv("/home/chenshutao/PythonCode/Chem/PythonCode/DNTT-Test-250324.csv")
+    data = load_csv("Train_dataset.csv")
+    dntt = load_csv("Test_dataset.csv")
     data = np.vstack((data, dntt))
 
     smile_feature_molformer = load_pickle(
-        "/home/chenshutao/PythonCode/Chem/PythonCode/RDKit+MoLFormer/molformer_feature_pca_reduced.pkl"
+        "/features/molformer_feature_pca_reduced.pkl"
     )
     smile_feature_rdkit = load_pickle(
-        "/home/chenshutao/PythonCode/Chem/PythonCode/RDKit/RDKit_feature.pkl"
+        "/features/RDKit_feature.pkl"
     )
 
     Y = data[:, -2]
@@ -360,7 +360,7 @@ def main():
 
     print("=== Step 3: FGSM Augmentation ===")
     model = TransformerDNN(input_size=246)
-    model.load_state_dict(torch.load("/home/chenshutao/PythonCode/Chem/PythonCode/BaseModel/Ensemble/FGSM/best_model.pth", map_location="cpu"))
+    model.load_state_dict(torch.load("best_model.pth", map_location="cpu"))
     model.eval()
     X = X.astype(np.float32)
     Y = Y.astype(np.float32)
