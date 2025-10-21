@@ -104,6 +104,7 @@ If you use this code in your research, please cite:
 
 Jiannan Qi, Shutao Chen, Hui Liu, Lin Zhang*, Xiaosong Chen*, Liqiang Li*, Wenping Hu. Stability Prediction of Organic Field-Effect Transistors by Machine Learning. 2025. (Submitted)
 
+In addition, if you have any further questions, please feel free to contact us [**qijiannan@upc.edu.cn**]
 
 ## 8. License
 
