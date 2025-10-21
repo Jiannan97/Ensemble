@@ -90,14 +90,18 @@ The script prints average metrics (MSE, RMSE, R², PCC) across folds.
 The pipeline outputs the following metrics during cross-validation:
 
 **MSE** – Mean Squared Error
+
 **RMSE** – Root Mean Squared Error
+
 **R²** – Coefficient of determination
+
 **PCC** – Pearson correlation coefficient
 
 
 ## 7. Citation
 
 If you use this code in your research, please cite:
+
 Jiannan Qi, Shutao Chen, Hui Liu, Lin Zhang*, Xiaosong Chen*, Liqiang Li*, Wenping Hu. Stability Prediction of Organic Field-Effect Transistors by Machine Learning. 2025. (Submitted)
 
 
