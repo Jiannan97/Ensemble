@@ -41,14 +41,14 @@ cd Ensemble
 
 The main Python packages required are:
 ```
-numpy
-pandas
-scipy
-scikit-learn
-xgboost
-torch
-matplotlib
-rdkit
+numpy 1.26.4
+pandas 2.2.2
+scipy 1.13.1
+scikit-learn 1.5.0
+xgboost 2.1.4
+torch 2.3.0
+matplotlib 3.9.0
+rdkit 2024.03.6
 ```
 
 You can install them via pip:
